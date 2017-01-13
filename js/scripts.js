@@ -17,7 +17,7 @@ $(".language-info").hide();
       $("#net").show();
     } else if(system === "pc" && location === "government") {
       $("#php").show();
-    } else if(system === "mac" && location === "small" && work === "alone") {
+    } else if(system === "mac" && location === "small") {
       $("#ruby").show();
     } else if(system === "mac" && work === "government") {
       $("#andriod").show();
