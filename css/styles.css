@@ -12,6 +12,10 @@ h1 {
   font-size: 40px;
 }
 
+#corp {
+ text-align: center;
+}
+
 .panel {
   border: none;
 }

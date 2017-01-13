@@ -4,6 +4,7 @@ $(document).ready(function() {
     event.preventDefault();
 $(".language-info").hide();
     var system = $("input:radio[name=info]:checked").val();
+    var location = $("select#location").val();
 
     if(system === "pc") {
       $("#andriod").show();
