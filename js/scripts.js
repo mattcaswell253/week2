@@ -10,6 +10,8 @@ $(".language-info").hide();
       $("#andriod").show();
     } else if(system === "mac") {
       $("#ruby").show();
-    }
+    } else if(location === "large") {
+        $("#php").show();
+      }
+    })
   });
-});
