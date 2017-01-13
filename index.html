@@ -19,30 +19,44 @@
         <h2>Please fill out this Track Suggester survey to find out what language best suits you.</h2>
       </div>
 
-      <div class="row">
-        <div class="col-md-5">
-          <div class="form-check">
-            <h3>Which do you prefer?</h3>
-            <label class="form-check-label">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="mac" value="mac">
+      <form id="operating-system">
+          <div class="radio">
+            <label>
+              <input type="radio" name="info" value="mac">
               Mac
             </label>
           </div>
-          <div class="form-check">
-            <label class="form-check-label">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="pc" value="pc">
+          <div class="radio">
+            <label>
+              <input type="radio" name="info" value="pc">
               PC
             </label>
           </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="info" value="both">
+              Im fine using both
+            </label>
+          </div>
+          <button type="submit" class="btn btn-danger" name="button">Are you sure?</button>
+        </form>
 
-        </div>
-
-
-      </div>
 
     </div>
   </div>
 </div>
+
+
+<div class="language-info" id="andriod"
+<p>
+  <h2> Java/Andriod </h2>
+  given the information you provided us we feel that you would best be suited in the java/android language.</p>
+</div>
+
+<div class="language-info" id="ruby"
+<p>
+  <h2> Ruby </h2>
+  given this information, the language that best fits you is ruby. </p>
 
 </body>
 </html>
