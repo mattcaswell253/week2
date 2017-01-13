@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("form#operating-system").submit(function(event) {
     event.preventDefault();
 $(".language-info").hide();
+
     var system = $("input:radio[name=info]:checked").val();
     var location = $("select#location").val();
     var work = $("select#work-style").val();
