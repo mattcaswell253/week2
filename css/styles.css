@@ -8,12 +8,12 @@ h1 {
 }
 
 #head {
-  text-align: center;
+  text-align: center;;
   font-size: 40px;
 }
 
 #corp {
- text-align: center;
+ text-align-last: left;
 }
 
 .panel {
