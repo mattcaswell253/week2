@@ -1,4 +1,4 @@
-# _Matt Caswell_
+# _Track Suggester_
 
 #### _This webpage is a survey that tells you which programming language  best fits you, January 13th, 2017._
 
@@ -22,7 +22,7 @@ matthewcaswell253@gmail.com .}_
 
 ## Technologies Used
 
-_For this webpage I used powershell, git hub, html, css and I also used bootstrap to create some containers and used css to color them._
+_For this webpage I used powershell, git hub, html, javascript, css and I also used bootstrap to create some containers and used css._
 
 ### License
 
